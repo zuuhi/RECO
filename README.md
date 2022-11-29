@@ -3,37 +3,28 @@
 
 <br/>
 
-### Project Period
-> 2022.03.08 ~ 2022.11.28
+## Summary
+> 2022.03 ~ 2022.12
 
 <br/>
 
 ### Contents
-<h5>
-- RECO는 공공데이터포털에서 쓰레기통의 위치들을 받아 쓰레기통의 위치를 지도에 나타낸다.<br/>
-- 쓰레기통 마커를 클릭하면 위치와 상세주소가 띄워진다.<br/>
-- 자체적으로 QR을 부착한 쓰레기통의 위치도 나타나게 되며, 그 쓰레기통의 마커를 클릭하면 QR 인식을 할 수 있는 화면이 나타난다.<br/>
-- QR을 인식한 후 쓰레기통이 확인되면 재활용 마크를 통해 재활용임을 인증할 수 있다.<br/>
-- 이미지 분류 인공지능 Teachable Machine을 활용하여 재활용 마크와 일반 쓰레기를 분류한다.<br/>
-- 재활용임이 인증되면 포인트를 획득할 수 있다.<br/>
-- 획득한 포인트로 기프티콘을 구매할 수 있다.
-</h5>
-
-![비즈니스 모델 캔버스](https://user-images.githubusercontent.com/91466490/198517154-85ff320e-391b-4c33-8e0d-e54c665a6501.png)
+<h5>- 쓰레기통 위치 찾기<br/>- 자체 제작 IoT 쓰레기통(Reco Bin)을 통해 재활용 시 2 point 적립<br/>- 퀴즈 및 이벤트 참여</h5>
 
 <br/>
 
 ## Teams 
-> 한양여자대학교 Smart IT.
+> HYWU Smart IT.
 
 <br/>
-  
-##### 🐱 권민주 / Min Ju Kwon
+
+##### 🐰 김주희 / Joo Hee Kim
 <h5>기여도 |  100% </h5>
 <h5>
+  - PM, UI/UX Leader<br/>
   - Front-end / Back-end <br/>
-  - DB Leader <br/>
-  - QR 생성 및 인식 / 재활용 인증 AI / 사용자 E-Mail 인증 / Map (데이터 저장 및 가공, 쓰레기통 위치) / 마이페이지 (고객센터 내역 및 답변) / 공지 어드민 / 고객센터 어드민 (답변 작성) <br/>
+  - Home / Quiz / Event / Notice / auto login & Log out / Edit Profile / Map(위치 검색, 쓰레기통 상세주소, 현재 사용자 위치)<br/>
+  - Admin Home / Admin Login / Recobin Admin
 </h5>
 
 <br/>
@@ -41,24 +32,23 @@
 <details>
 <summary>members</summary>
 <div markdown="1">
-
-
-##### 🐰 김주희 / Joo Hee Kim
+  
+##### 🐱 권민주 / Min Ju Kwon
 <h5>기여도 |  100% </h5>
 <h5>
   - Front-end / Back-end <br/>
-  - PM, UI/UX Leader <br/>
-  - 자동 login & Log out / 홈 / 퀴즈 / 이벤트 / 공지 / Map (현재위치 , 위치 검색, 쓰레기통 상세주소)/ 마이페이지 (개인정보수정) / 레코빈 어드민 / 홈 어드민 / 어드민 로그인 <br/>
+  - DB Leader <br/>
+  - QR 인식 / 재활용 인증 AI / 사용자 E-Mail 인증 / Map(, 데이터 저장 및 가공, 쓰레기통 위치) / Notice Admin <br/>
 </h5>
 
 <br/>
 
-##### 🐨 박서영 / Seo Young Park
+##### 🐨 박 / Seo Young Park
 <h5>기여도 |  100% </h5>
 <h5>
   - Front-end / Back-end <br/>
   - Programming Leader <br/>
-  - 기프티콘 / 기프티콘 내역 / 알림 / 설정 / 회원탈퇴 / 기프티콘 어드민 <br/>
+  - Coupon / Coupon Admin / Alert / Settings / Delete Account <br/>
 </h5>
 
 <br/>
@@ -68,7 +58,7 @@
 <h5>
   - Front-end / Back-end <br/>
   - Tech. writer <br/>
-  - 로그인 & 회원가입 / 마이페이지 (개인정보수정) / 고객센터 / 사용자 어드민 / 고객센터 어드민 <br/>
+  - Login & Sign Up / Edit Profile / Edit Profile / Service Center(Inqury) / Login Admin / Service Center Admin <br/>
 </h5>
 
 <br/>
@@ -78,7 +68,7 @@
 <h5>
   - Front-end / Back-end <br/>
   - Testing Leader <br/>
-  - 지도 (현재위치) <br/>
+  - Map: User's current location <br/>
 </h5>
 
 <br/>
@@ -90,42 +80,44 @@
 ## About Project
 
 ### Target
-+ 대한민국 쓰레기통의 위치가 궁금한 모든 사람
++ 쓰레기통이 꽉 채워져 있거나 버릴 곳이 없어 불편함을 느끼는 사용자
++ 플로깅 활동을 하는 사용자
++ 환경에 관심있는 사용자
 
 <br/>
 
 ### Skills
 + JAVA
 + Android Studio
-+ Firebase Realtime Database / Firebase Authentication
-+ AI (Teachable Machine)
-+ Map (Google Map Api)
++ DB: Firebase
++ AI: Teachable Machine
 
 <br/>
 
 ### Contest
 + 제 10회 K-해커톤 전국 대학생 앱 개발 챌린지 본선 진출
-+ 2022년도 4차 산업혁명 인재양성 공유협업페스티벌 공모전 장려상
++ 2022 4차 산업혁명 인재양성 공유 협업 페스티벌 장려상
 
 <br/>
 
 ## Results
 
-|Page|Run ex.|
+|Page|Main Function ex.|
 |:--:|:-:|
 |Home|<img width="30%" height="10%" alt="home" src="https://user-images.githubusercontent.com/93530261/198549541-87385c32-2a04-4249-8a23-bbfa4f7dbd59.png">|
 |Map|<img width="30%" height="10%" alt="map" src="https://user-images.githubusercontent.com/93530261/198549992-22105561-c5f9-4273-804d-8bdc741b15c0.png">|
 |Trashcan|<img width="30%" height="10%" alt="trashcan" src="https://user-images.githubusercontent.com/93530261/198550723-53c7eee9-da04-46cf-80bd-6ee3d851902c.png">|
-|Reco Bin|<img width="30%" height="10%" alt="recobin" src="https://user-images.githubusercontent.com/93530261/198550633-9ef4e2ca-9863-4e01-afb6-b42005a07eef.png">|
+|Recobin|<img width="30%" height="10%" alt="recobin" src="https://user-images.githubusercontent.com/93530261/198550633-9ef4e2ca-9863-4e01-afb6-b42005a07eef.png">|
 
 <br/>
 
-## Project Repository
-깃허브 : https://github.com/alswn1/reco_capstone
+## More
++ 소개: [RECO.pdf](https://drive.google.com/file/d/1fYD4UKuFojDa2WOE4yjK6atvWLr980Ur/view?usp=sharing) <br/>
++ 시연 영상: https://www.youtube.com/watch?v=cWtP7gjAv38
 
 <br/>
 
 ## Installing
-최종 완성 이후 추가 예정
+https://drive.google.com/file/d/1EZqA4c7Wwrx6pOD3JSvZ3CVDyh_dNTRt/view?usp=sharing
 
 <br/>
